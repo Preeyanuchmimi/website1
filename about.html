@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake"> <!-- ใช้ธีม cupcake -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui"></script> <!-- เพิ่ม DaisyUI -->
+</head>
+<body class="bg-base-100 text-base-content"> <!-- ใช้พื้นหลังตามธีมที่กำหนดใน data-theme -->
+
+  <!-- Header -->
+  <header class="navbar bg-base-200 shadow-lg"> <!-- ใช้ bg-base-200 จากธีม -->
+    <div class="flex-1 bg-white">
+      <a class="btn btn-ghost normal-case text-xl font-bold text-black">cat breeds</a>
+    </div>
+    <div class="flex justify-center items-center w-full bg-white">
+      <ul class="menu menu-vertical md:menu-horizontal px-1 space-y-4 md:space-y-0 md:flex md:space-x-6">
+        <li><a href="index.html" class="font-semibold hover:text-yellow-300 text-black">Home</a></li>
+        <li><a href="about.html" class="font-semibold hover:text-yellow-300 text-black">About</a></li>
+        <li><a href="contact.html" class="font-semibold hover:text-yellow-300 text-black">Contact</a></li>
+      </ul>
+    </div>    
+  </header>
+
+  <!-- Main Content -->
+  <main class="p-8 text-center"> 
+    <h1 class="text-5xl font-extrabold text-primary">cat breedss</h1>
+    <p class="mt-4 text-xl text-secondary">มารู้จักแมวสายพันธุ์ต่าง ๆ จากทั่วโลกและค้นหาแมวที่ใช่สำหรับคุณ</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Chinchilla_.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">chinchilla</h2> 
+        <p class="mt-2 text-secondary">แมวชินชิล่าเป็นแมวที่มีลักษณะเป็นแมวเปอร์เซียที่มีสีจำเพาะ</p> 
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="_British_shorthair.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">British Shorthair</h2>
+        <p class="mt-2 text-secondary">เป็นหนึ่งในสายพันธุ์แมวที่เก่าแก่ที่สุดของประเทศอังกฤษ ด้วยลักษณะเด่นที่มีขนหนานุ่มน่ากอด กับนิสัยเท่ๆ</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Russian_blue.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Russian Blue</h2>
+        <p class="mt-2 text-secondary">รัสเซียนบลูเป็นแมวขนาดกลางถึงใหญ่ มีรูปร่างเพรียวบาง งามสง่า และขาเรียวยาว มองผ่าน ๆ เหมือนเดินเขย่งปลายเท้าตลอดเวลา </p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="_Ragamuffin.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Ragamuffin</h2>
+        <p class="mt-2 text-secondary">รากามัฟฟิน ชื่อนี้ได้มาเพราะความก้อนกลมโตน่ารัก โดยลักษณะแล้ว แมวพันธุ์นี้เป็นแมวขนาดใหญ่ ตัวแน่น</p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Scottish_fold.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Scottish fold</h2>
+        <p class="mt-2 text-secondary">ทำความรู้จัก สก๊อตทิช โฟล์ด [Scottish fold]
+          อีกหนึ่งสายพันธุ์น้องแมวที่เป็นที่รู้จักมากไม่แพ้สายพันธุ์ไหนก็คือ สายพันธุ์สก๊อตทิช โฟลด์ [Scottish fold] ที่มีหูพับอันเป็นเอกลักษณ์แสนเก๋ที่ไม่เหมือนใคร หน้ากลมแป้น ขนอุยนุ่มน่ากอด </p>
+      </div>
+      <div class="card bg-base-200 text-base-content shadow-xl p-6 rounded-lg">
+        <img src="Sphynx.jpg" alt="Golden Barrel" class="rounded-lg mb-4">
+        <h2 class="text-2xl font-bold text-primary">Sphinx</h2>
+        <p class="mt-2 text-secondary">จุดเด่นของแมวสฟิงซ์คือเป็นแมว “ไร้ขน” แม้ดูภายนอกจะเหมือนแมวไร้ขน แต่อันที่จริงแล้วสฟิงซ์มีขนนุ่มละเอียดปกคลุมทั่วรางกาย ให้สัมผัสเหมือนเปลือกลูกพีช แมวพันธุ์นี้ไม่มีหนวดและขนตา หัวมีรูปทรงคล้ายกับหัวของแมวเดวอน เร็ก</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer p-10 bg-white text-black shadow-inner"> <!-- เปลี่ยนจาก bg-base-200 เป็น bg-black และ text-black เป็น text-white -->
+    <p class="font-semibold text-center">หากคุณอยากเลี้ยงแมวแต่ไม่รู้ว่าสายพันธุ์แมวไหนที่เหมาะกับคุณและครอบครัว ใช่หรือเปล่า? มาดูแหล่งข้อมูลสายพันธุ์แมวของเรา ที่จะทำให้คุณเข้าใจความแตกต่างของแต่ละสายพันธุ์ และช่วยเลือกสายพันธุ์ที่เข้ากับคุณให้ได้มากที่สุด คุณจะได้ข้อมูลทั้งประวัติความเป็นมา ลักษณะนิสัยของแมวแต่ละสายพันธุ์ และเข้าใจปัญหาด้านสุขภาพ วิธีการดูแล รวมถึงสารอาหารที่แมวสายพันธุ์แมวนั้น ๆ ต้องการ</p>
+  </footer>   
+</body>
+</html>

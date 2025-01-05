@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/daisyui"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <style>
+    body {
+      background-image: url('https://cdn.pixabay.com/photo/2024/11/18/11/29/bicolor-9205983_1280.jpg');
+      background-size: cover ;
+      background-position: center ;
+    }
+  </style>
+</head>
+<body class="bg-base-100 text-black min-h-screen flex flex-col">
+
+  <!-- ส่วน Header -->
+  <header class="navbar bg-base-200 shadow-lg">
+    <div class="flex-1 bg-white">
+      <a class="btn btn-ghost normal-case text-xl font-bold text-black">cat breeds</a>
+    </div>
+    <div class="flex justify-center items-center w-full bg-white">
+      <ul class="menu menu-vertical md:menu-horizontal px-1 space-y-4 md:space-y-0 md:flex md:space-x-6">
+        <li><a href="index.html" class="font-semibold hover:text-yellow-300 text-black">Home</a></li>
+        <li><a href="about.html" class="font-semibold hover:text-yellow-300 text-black">About</a></li>
+        <li><a href="contact.html" class="font-semibold hover:text-yellow-300 text-black">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- เนื้อหาหลัก -->
+  <main class="flex flex-col justify-center items-center p-8 text-center flex-grow">
+    <h1 class="text-5xl font-extrabold text-black drop-shadow-md">Welcome to cat breeds</h1>
+    <p class="mt-4 text-xl text-black drop-shadow-sm">มารู้จักแมวสายพันธุ์ต่าง ๆ จากทั่วโลกและค้นหาแมวที่ใช่สำหรับคุณ</p>
+    <button class="btn bg-red-700 text-white font-bold py-2 px-6 rounded-lg shadow-lg hover:bg-green-800 transition-all mt-8">
+      <i class="fas fa-rocket mr-2"></i> Get Started
+    </button>
+  </main>
+
+  <!-- ส่วน Footer -->
+  <footer class="footer p-4 bg-white text-black shadow-inner">
+    <div class="p-2">
+      <p class="font-semibold text-sm">
+        <i class="fas fa-cat mr-2"></i> Cactus
+        หากคุณอยากเลี้ยงแมวแต่ไม่รู้ว่าสายพันธุ์แมวไหนที่เหมาะกับคุณและครอบครัว ใช่หรือเปล่า? มาดูแหล่งข้อมูลสายพันธุ์แมวของเรา ที่จะทำให้คุณเข้าใจความแตกต่างของแต่ละสายพันธุ์ และช่วยเลือกสายพันธุ์ที่เข้ากับคุณให้ได้มากที่สุด คุณจะได้ข้อมูลทั้งประวัติความเป็นมา ลักษณะนิสัยของแมวแต่ละสายพันธุ์ และเข้าใจปัญหาด้านสุขภาพ วิธีการดูแล รวมถึงสารอาหารที่แมวสายพันธุ์แมวนั้น ๆ ต้องการ
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
